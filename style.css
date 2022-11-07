@@ -23,21 +23,21 @@
 
 @font-face {
     font-family: 'Futura Book';
-    font-display: swap;
+    font-display: optional;
     src: url('FuturaPTBook.woff2') format('woff2'),
          url('FuturaPTBook.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Futura Semi';
-    font-display: swap;
+    font-display: optional;
     src: url('FuturaPTDemi.woff2') format('woff2'),
          url('FuturaPTDemi.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Futura Med';
-    font-display: swap;
+    font-display: optional;
     src: url('FuturaPTMedium.woff2') format('woff2'),
          url('FuturaPTMedium.woff') format('woff');
 }
