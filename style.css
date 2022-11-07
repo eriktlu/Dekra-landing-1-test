@@ -23,21 +23,21 @@
 
 @font-face {
     font-family: 'Futura Book';
-    font-display: optional;
+    font-display: swap;
     src: url('FuturaPTBook.woff2') format('woff2'),
          url('FuturaPTBook.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Futura Semi';
-    font-display: optional;
+    font-display: swap;
     src: url('FuturaPTDemi.woff2') format('woff2'),
          url('FuturaPTDemi.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Futura Med';
-    font-display: optional;
+    font-display: swap;
     src: url('FuturaPTMedium.woff2') format('woff2'),
          url('FuturaPTMedium.woff') format('woff');
 }
@@ -127,9 +127,9 @@ section {
     z-index: 0;
 }
 
-* {
+/* * {
     transition: .15s ease-in-out;
-}
+} */
 
 textarea {
     resize: none;
@@ -452,6 +452,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     text-align: center;
     text-shadow: 2px 2px 4px rgb(0 0 0 / .1);
+    transition: .15s ease-in-out;
 }
 
 @media (min-width: 992px) {
@@ -756,6 +757,7 @@ header .w-vulcan-overlays-table {
 .slides {
     position: relative;
     left: 0;
+    transition: .15s ease-in-out;
 }
 
 .slide {
@@ -806,6 +808,7 @@ header .w-vulcan-overlays-table {
     padding: 1rem 0.875rem;
     cursor: pointer;
     border-radius: 5px;
+    transition: .15s ease-in-out;
 }
 
 .slide-buttons > span > img {
@@ -944,6 +947,7 @@ footer {
     color: var(--clr-secondary-700);
     text-decoration-color: var(--clr-secondary-700);
     margin-left: 1.25rem;
+    transition: .15s ease-in-out;
 }
 
 .footer-links a:hover {
@@ -1022,6 +1026,7 @@ footer {
 .form-container {
     position: relative;
     left: 0;
+    transition: .15s ease-in-out;
 }
 
 .form-page {
@@ -1054,6 +1059,7 @@ footer {
  
 .overlay-previous {
     background-color: var(--clr-secondary-600);
+    transition: .15s ease-in-out;
 }
 
 .overlay-previous:hover {
@@ -1062,6 +1068,7 @@ footer {
 
 .overlay-finish {
     background-color: var(--clr-secondary-1000);
+    transition: .15s ease-in-out;
 }
 
 .overlay-finish:hover {
@@ -1301,6 +1308,7 @@ footer {
     text-decoration: none;
     text-align: center;
     text-shadow: 2px 2px 4px rgb(0 0 0 / .1);
+    transition: .15s ease-in-out;
 }
 
 @media (min-width: 992px) {
