@@ -16,28 +16,28 @@
     --clr-secondary-1300: #73CD34;
     --clr-secondary-1400: #EEEEEE;
 
-    --ff-primary: 'Futura Book', sans-serif;
-    --ff-secondary: 'Futura Semi', sans-serif;
-    --ff-med: 'Futura Med', sans-serif;
+    --ff-primary: 'Futura Book', Arial;
+    --ff-secondary: 'Futura Semi', Arial;
+    --ff-med: 'Futura Med', Arial;
 }
 
 @font-face {
     font-family: 'Futura Book';
-    font-display: swap;
+    font-display: fallback;
     src: url('FuturaPTBook.woff2') format('woff2'),
          url('FuturaPTBook.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Futura Semi';
-    font-display: swap;
+    font-display: fallback;
     src: url('FuturaPTDemi.woff2') format('woff2'),
          url('FuturaPTDemi.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Futura Med';
-    font-display: swap;
+    font-display: fallback;
     src: url('FuturaPTMedium.woff2') format('woff2'),
          url('FuturaPTMedium.woff') format('woff');
 }
